@@ -1,0 +1,36 @@
+Bierki{
+Król,
+Królowa,
+Goniec,
+Skoczek,
+Wieża,
+Pionek
+}
+
+2 Graczy
+Grasz ma przypisane swoje Bierki
+
+Plansza 8x8 (macierz kwadratowa [8][8] )
+Pole planszy ma przypisaną Bierkę jeśli się na nim znajduje
+
+Zaznaczenie Bierki poprzez klik myszką(LPM) (można tylko zaznaczyć własne bierki)
+Ruch bierki poprzez zaznaczenie pola (wymagane wcześniejsze zaznaczenie Bierki, ruch tylko na pola nie zajęte przez własne figury)
+Odznaczenie Bierki poprzez LPM lub PPM
+ ||
+Ruch bierek można wykonać poprzez wpisanie pozycji swojej bierki i nowej pozycji bierki 
++ np . lista możliwych nowych pozycji wybranej bierki
+
+Ruch:
+Król - 1 w dowolnym kierunku, ? roszada ?
+Królowa - * w dowolnym kierunku po lini prostej
+Goniec - * po skosie po lini prostej
+Skoczek - 3 podczas ruchu musi zmienić kierunek (1 raz), jego ruch kreśli literę L
+Wieża - * po lini prostej
+Pionek - Pierwszy ruch o {1,2} do przodu , następne o 1 do przodu, bicie po skosie do przodu
+
+Promocja Pionka - po osiągnięciu pozycji w rzedzie 1 lub 8 możliwa  jest zamiana pionka na {Królowa,Goniec,Skoczek,Wieża}
+
+Porażka:
+Strata króla 
+Koniec czasu 
+Poddanie się
